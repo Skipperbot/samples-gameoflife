@@ -4,9 +4,7 @@
 package com.siebeprojects.samples.gameoflife;
 
 /**
- * Class implementing Conway's GameOfLife 
- *
- * http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+
  *
  * Conventions
  *  int[][] board;   // The game board is a 2D array.
@@ -85,8 +83,7 @@ public final class GameOfLife {
      * get the next game board, this will calculate if cells live on or die or new
      * ones should be created by reproduction.
      * 
-     * @param b        The current board field
-     * @return A newly created game buffer
+     * @param b      
      */
     public int[][] getNextBoard(int[][] board) {
 
